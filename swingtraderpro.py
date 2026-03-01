@@ -57,6 +57,17 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stSidebar"] {
   background: var(--bg2) !important;
   border-right: 1px solid var(--border) !important;
+  display: block !important;
+  visibility: visible !important;
+  min-width: 250px !important;
+}
+[data-testid="stSidebar"] > div:first-child {
+  display: block !important;
+  padding-top: 1rem !important;
+}
+/* Hide collapse button */
+button[data-testid="collapsedControl"] {
+  display: none !important;
 }
 
 h1,h2,h3 { font-family: 'Syne', sans-serif !important; }

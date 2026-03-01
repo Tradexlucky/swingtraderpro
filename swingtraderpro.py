@@ -118,10 +118,12 @@ h1,h2,h3 { font-family: 'Syne', sans-serif !important; }
   text-align: center;
 }
 .metric-val {
-  font-family: 'Syne', sans-serif;
-  font-size: 28px;
-  font-weight: 800;
-  margin: 4px 0;
+  font-family: 'DM Sans', Arial, sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 800 !important;
+  margin: 4px 0 !important;
+  line-height: 1.3 !important;
+  display: block !important;
 }
 .metric-label {
   font-size: 12px;
